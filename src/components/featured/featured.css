@@ -1,0 +1,17 @@
+.featured .featured-img img {
+  transition: 0.5s;
+  transform: rotate(15deg);
+}
+.featured .featured-img img:hover {
+  transform: rotate(0);
+}
+.featured .featured-text .title h4 {
+  color: #2563eb;
+}
+.featured .featured-text .main-btn {
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+  width: fit-content;
+  padding: 7px 12px;
+}

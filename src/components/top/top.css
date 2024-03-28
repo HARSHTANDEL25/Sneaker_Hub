@@ -1,0 +1,58 @@
+.top-box {
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px 3px #ccc;
+  height: 300px;
+}
+.top-box:hover {
+  transform: scale(1.05);
+}
+.top-box .product-img img {
+  transition: 0.5s;
+  cursor: pointer;
+  width: 200px;
+}
+.top-box .product-img img:hover {
+  transform: rotate(-20deg);
+}
+.top-box button {
+  outline: none !important;
+  border: none !important;
+}
+.top-1 {
+  background: linear-gradient(180deg, #0284c7 63%, #4f46e5 91%);
+}
+.top-2 {
+  background: linear-gradient(180deg, #22c55e 63%, #10b981 91%);
+}
+.top-3 {
+  background: linear-gradient(180deg, #ef4444 63%,#000000 91%);
+  
+
+}
+.top-4 {
+  background: linear-gradient(180deg, #f97316 63%, #f59e0b 91%);
+}
+.top-5 {
+  background: linear-gradient(180deg, #111827 63%, #eab308 91%);
+}
+.top-6 {
+  background: linear-gradient(180deg, #3b82f6 63%, #06b6d4 91%);
+}
+.top-7 {
+  background: linear-gradient(180deg, #eab308 63%, #eab308 91%);
+}
+.top-8 {
+  background: linear-gradient(180deg, #936550 63%, #7c2d12 91%);
+}
+.top-9 {
+  background: linear-gradient(180deg, #4338ca 63%, #4338ca 91%);
+}
+.top-10 {
+  background: linear-gradient(180deg, #16a34a 63%, #84cc16 91%);
+}
+.top-11 {
+  background: linear-gradient(180deg, #0f172a 63%, #000 91%);
+}
+.top-12 {
+  background: linear-gradient(180deg, #1e3a8a 63%, #3b82f6 91%);
+}

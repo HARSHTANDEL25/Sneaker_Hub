@@ -1,0 +1,17 @@
+.hightlight .hightlight-img img {
+  transition: 0.5s;
+  transform: rotate(15deg);
+}
+.hightlight .hightlight-img img:hover {
+  transform: rotate(0);
+}
+.hightlight .hightlight-text .title h4 {
+  color: #2563eb;
+}
+.hightlight .hightlight-text .main-btn {
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+  width: fit-content;
+  padding: 7px 12px;
+}

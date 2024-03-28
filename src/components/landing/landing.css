@@ -1,0 +1,64 @@
+.landing {
+  background: linear-gradient(186deg, #345df5 44%, #4b5cc5 60%, #ffffff 100%);
+}
+
+.landing .navbar .logo img {
+  width: 100px;
+}
+
+
+
+.landing .navbar .nav-icons button i {
+  color: white;
+  font-size: 20px;
+}
+.landing .navbar .nav-icons .cart-icon .cart-num {
+  top: -12px;
+  right: -5px;
+  background-color: rgb(67, 156, 228);
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+.landing .navbar.fixed-nav {
+  background-color: rgba(225, 225, 225, 0.7);
+  box-shadow: 0px 0px 5px #ccc;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+.landing .navbar.fixed-nav .logo img {
+  filter: brightness(0);
+}
+
+
+
+.landing .navbar .signin {
+  color: white
+
+}
+.landing .navbar.fixed-nav .nav-icons button i {
+  color: black;
+}
+.landing .landing-videos .land-video {
+  width: 200px;
+  max-width: 200px;
+  height: 120px;
+  max-height: 120px;
+  cursor: pointer;
+  background-color: transparent;
+  overflow: hidden;
+}
+.landing .landing-videos .land-video video {
+  height: 100%;
+  width: 100%;
+}
+.landing .landing-content img {
+  transform: rotate(-30deg);
+  transition: 0.5s;
+}
+.landing .landing-content img:hover {
+  transform: rotate(0);
+}
+  

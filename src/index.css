@@ -1,0 +1,47 @@
+/* Global Rules  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body, #root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  width: 100%;
+  overflow-x: hidden;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+button {
+  background: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  object-fit: cover !important;
+}
+.main-btn {
+  padding: 0.25em 0.5em;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

@@ -1,0 +1,9 @@
+.blogs .blog-box .blog-info small {
+  font-size: 12px;
+}
+.blogs .blog-box .blog-info .fa-heart {
+  color: red;
+}
+.blogs .blog-box .blog-info .author {
+  color: #2563eb;
+}
