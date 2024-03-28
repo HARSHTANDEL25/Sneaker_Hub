@@ -20,7 +20,7 @@ const Signup = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const url = "http://localhost:8080/api/users";
+            const url = "https://sneaker-hub.vercel.app/api/users";
             const { data: res } = await axios.post(url, data);
             navigate("/login");
             console.log(res); // Log the entire response
